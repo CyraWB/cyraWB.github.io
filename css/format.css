@@ -1,0 +1,38 @@
+
+body{
+    background-color: rgb(60, 0, 36);
+    font-size:24px;
+    text-align: justify;
+    color: #fff;
+}
+img{
+    position: absolute;
+    border-radius: 0px;
+    padding: 0px;
+    background:none;
+}
+.mapimg{
+    max-width: 50vw;
+    max-height: 50vh;
+    top: 5vh;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#map{
+    position: relative;
+}
+#context{
+    position:absolute;
+    width: 75vw;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#Ellil{
+    position:absolute;
+    max-width: 11vw;
+    max-height: 11vh;
+    left: 1%;
+}
+#Ellil:hover{
+    opacity: .5;
+}
